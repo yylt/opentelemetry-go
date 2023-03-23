@@ -1,0 +1,17 @@
+go 1.20
+
+use (
+	./example/fib
+	./example/jaeger
+	./example/namedtracer
+	./example/otel-collector
+	./example/prometheus
+	./exporters/jaeger
+	./exporters/otlp/otlptrace
+	./exporters/otlp/otlptrace/otlptracegrpc
+	./exporters/otlp/otlptrace/otlptracehttp
+	./metric
+	./schema
+	./sdk
+	./trace
+)
